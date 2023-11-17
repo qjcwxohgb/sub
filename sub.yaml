@@ -269,6 +269,7 @@ proxy-groups:
     - warp-wireguard节点                                  #自定义添加协议的name字段
     - vless-ws-tls节点
     - vless-ws节点
+    - hysteria2自签节点
 
 - name: 自动选择
   type: url-test
