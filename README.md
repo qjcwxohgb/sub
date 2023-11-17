@@ -1,3 +1,20 @@
+proxies:
+==============================（vless-reality-vision节点）
+- name: vless-reality-vision节点               #可自定义名称
+  type: vless
+  server: 157.245.55.112                             #解析的域名或IP
+  port: 3001                                 #自定义的端口
+  uuid: ad0b383a-5aaf-44d9-a5e4-82f3f06ba533   #自定义的uuid
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: home.korea-ip.me                   #自定义的第三方域名
+  reality-opts: 
+    public-key: GQOcnUQGxWuNyXSwGnIXHp6eInwXh8RADieG83lMW2w    #自定义的public-key
+    short-id: 93d6bb9d                       #自定义的short-id
+  client-fingerprint: chrome                  #自定义的浏览器指纹
+
 - name: hysteria2自签节点                             #可自定义名称
   type: hysteria2                                      
   server: 157.245.55.112                                     #服务器本地IP
@@ -24,6 +41,7 @@ proxy-groups:
     - vless-ws-tls节点
     - vless-ws节点
     - hysteria2自签节点
+    - vless-reality-vision节点
 
 - name: 自动选择
   type: url-test
