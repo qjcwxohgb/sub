@@ -1,1 +1,15 @@
-c2VydmVyOiA2NC43H779VT3t5Aph5eAb43H779VT3t5Aph5eAb8MfW4K3ZvFvi5LrNizeJK1QytPVWZ7MfHy3bu4v26tcMDqJm56pmtWpjkcQ5DAv8nUJYrLTjDJWq5s68ybc1qznw5mr2zkpyn9xn30lgymre5c8945m8hymsdl2CPkvb/nlKjoh6rnrbc1qznw5mr2zkpyn9xn30xD3a6445C8Bf5F1A20210910B3390148E2937e4EABJ5f2yrqss68ybtnwqseUvCYkcgTrUhE1TuRaPzvFgSVTyPeUvDA=
+server: 64.176.57.141:443
+auth: 123456
+
+bandwidth:
+  up: 40 mbps
+  down: 80 mbps
+  
+tls:
+  sni: his.korea-ip.me
+  insecure: false #使用自签时需要改成true
+
+socks5:
+  listen: 127.0.0.1:1080
+http:
+  listen: 127.0.0.1:8080
