@@ -1,1 +1,12 @@
-c2VydmVyOiAiMTCMmUwX3QZLa5sGTcdvn27jHpeNYPoGZtfB1JpDnPeUvfzM43H779VT3t5Aph5eAb43H779VT3t5Aph5eAb8MfW4K3ZvFvi5LrNizeJK1QytPVWZ7MfHy3bu4v26tcMDqJm56pmtWpjkcQ5DAv8nUJYrLTjDJWq59VT3t5Aph5eAb43H779VT3t5Aph5eAb8MfW4K3ZvFvi5LrNizeJK1QytPVWZ7MfHy3bu4v26tcMDqJm56pmtWpjkcQ5DAv8nUJYrLTjDJWq5Pzv
+server: "157.245.55.112:3003"
+auth: ad0b383a-5aaf-44d9-a5e4-82f3f06ba533
+tls:
+  sni: www.bing.com
+  insecure: true
+fastOpen: true
+socks5:
+  listen: 127.0.0.1:50000
+lazy: true
+transport:
+  udp:
+    hopInterval: 30s
